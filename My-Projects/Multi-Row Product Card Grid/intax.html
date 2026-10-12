@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: flex-start;
+    padding: 30px;
+    background-color: #111827;
+}
+.item {
+    width: 220px;
+    height: 150px;
+    background-color: #d4af37;
+    border: 2px solid #eed28c;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.item:hover {
+    transform: scale(1.05);
+    background-color: #f7f7f5;
+}
+</style>
+<body>
+ <div class="container">
+  <div class="item">Product 1</div>
+  <div class="item">Product 2</div>
+  <div class="item">Product 3</div>
+  <div class="item">Product 4</div>
+  <div class="item">Product 5</div>
+  <div class="item">Product 6</div>
+ </div>
+</body>
+</html>
